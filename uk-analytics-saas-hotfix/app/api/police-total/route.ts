@@ -1,0 +1,1 @@
+export async function GET(){return Response.json({"total_fte": 173400},{headers:{'Cache-Control':'no-store'}})}

@@ -1,0 +1,1 @@
+export async function GET(){return Response.json({"safest_areas": ["Rutland", "Isles of Scilly"], "highest_crime_areas": ["Westminster", "Middlesbrough"]},{headers:{'Cache-Control':'no-store'}})}

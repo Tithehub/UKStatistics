@@ -1,0 +1,1 @@
+export async function GET(){return Response.json({"psnd_gbp_bn": 2874, "psnd_gdp_pct": 96.3},{headers:{'Cache-Control':'no-store'}})}

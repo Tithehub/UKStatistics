@@ -1,0 +1,1 @@
+export async function GET(){return Response.json({"level": "SUBSTANTIAL", "as_of": "2025-07"},{headers:{'Cache-Control':'no-store'}})}

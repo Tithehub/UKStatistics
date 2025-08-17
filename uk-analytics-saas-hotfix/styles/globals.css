@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --bg:#0b0d12; --ink:#f5f7fb; }
+html,body { background: var(--bg); color: var(--ink); }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+.card { @apply rounded-2xl border border-white/10 bg-white/5 p-4 shadow-lg shadow-black/20 transition; }
+.value { @apply mt-1 text-2xl font-extrabold tracking-tight; }
+.small { @apply text-xs text-white/60; }

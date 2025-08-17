@@ -1,0 +1,1 @@
+export async function GET(){return Response.json({"usd": 2350.0},{headers:{'Cache-Control':'no-store'}})}

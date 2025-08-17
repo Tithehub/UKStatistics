@@ -1,0 +1,1 @@
+export async function GET(){return Response.json({"index": 28},{headers:{'Cache-Control':'no-store'}})}

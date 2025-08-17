@@ -1,0 +1,1 @@
+export async function GET(){return Response.json({"births_per_day": 1700, "deaths_per_day": 1600, "marriages_per_day": 900},{headers:{'Cache-Control':'no-store'}})}

@@ -1,0 +1,1 @@
+export async function GET(){return Response.json({"daily_in": 2000, "daily_out": 1500},{headers:{'Cache-Control':'no-store'}})}

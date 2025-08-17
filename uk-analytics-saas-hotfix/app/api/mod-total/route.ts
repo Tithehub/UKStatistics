@@ -1,0 +1,1 @@
+export async function GET(){return Response.json({"total_personnel": 180800},{headers:{'Cache-Control':'no-store'}})}

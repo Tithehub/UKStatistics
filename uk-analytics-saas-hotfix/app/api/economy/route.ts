@@ -1,0 +1,1 @@
+export async function GET(){return Response.json({"unemployment_rate": 4.6, "cpi_inflation": 3.1, "nhs_waiting_millions": 7.68},{headers:{'Cache-Control':'no-store'}})}

@@ -1,0 +1,1 @@
+export async function GET(){return Response.json({"daily_avg": 308},{headers:{'Cache-Control':'no-store'}})}
